@@ -1,0 +1,32 @@
+{
+  "name": "svn-utils",
+  "version": "1.0.0",
+  "description": "A silly module for CS242's portfolio assignment",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "read": "~1.0.5",
+    "xml2js": "~0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ben-ng/svn-utils.git"
+  },
+  "keywords": [
+    "svn",
+    "list",
+    "dir"
+  ],
+  "author": "Ben Ng <me@benng.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ben-ng/svn-utils/issues"
+  },
+  "homepage": "https://github.com/ben-ng/svn-utils"
+}
