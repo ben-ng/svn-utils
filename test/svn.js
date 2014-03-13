@@ -11,8 +11,6 @@ var log = require('../lib/svn-log')
 
 describe('svn', function () {
 
-  this.timeout(20000);
-
   // Get password before running tests
   before(function (next) {
     // If password was provided as an env var, just keep going
@@ -44,6 +42,8 @@ describe('svn', function () {
   });
 
   it('svn list kbng2 should work', function (done) {
+    this.timeout(120000);
+
     list(context, function (err, data) {
       assert.ifError(err);
       assert.ok(data);
