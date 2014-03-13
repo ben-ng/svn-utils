@@ -1,6 +1,6 @@
 {
   "name": "svn-utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A silly module for CS242's portfolio assignment",
   "main": "index.js",
   "directories": {
