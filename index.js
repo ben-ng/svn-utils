@@ -1,4 +1,4 @@
 module.exports = {
-  log: require('./lib/log')
-, list: require('./lib/list')
+  log: require('./lib/svn-log')
+, list: require('./lib/svn-list')
 };
